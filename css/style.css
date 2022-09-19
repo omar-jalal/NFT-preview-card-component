@@ -3,6 +3,13 @@
 :root {
     --lineColor: hsl(215, 32%, 60%);
     --hoverColor: hsl(178, 100%, 50%);
+    --softBlue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --darkestBlue: hsl(217, 54%, 11%);
+    --darkerBlue: hsl(216, 50%, 16%);
+    --darkBlue: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+
 }
 
 /* Variables End */
@@ -17,7 +24,7 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    background-color: hsl(217, 54%, 11%);
+    background-color: var(--darkestBlue);
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -43,12 +50,12 @@ body {
 }
 
 h2 {
-    color: hsl(0, 0%, 100%);
+    color: var(--white);
     margin-top: 1.2rem;
 }
 
 p {
-    color: hsl(0, 0%, 100%);
+    color: var(--white);
     color: var(--lineColor);
     line-height: 1.7rem;
     font-size: 1.125rem;
@@ -81,7 +88,9 @@ hr {
 
 .card {
     border-radius: 1rem;
-    background-color: hsl(216, 50%, 16%);
+    background-color: var(--darkerBlue);
+    box-shadow: 0 2rem 0 1rem hsla(217, 61%, 10%, 0.685),
+    0 2rem .1rem 3rem hsla(217, 50%, 10%, 0.384);
 }
 
 .product-pic {
@@ -148,12 +157,12 @@ hr {
 .creator picture img {
     max-height: 100%;
     max-width: 100%;    
-    border: 0.1rem solid white;
+    border: 0.1rem solid var(--white);
     border-radius: 50%;
 }
 
 .creator p span {
-    color:hsl(0, 0%, 100%);
+    color:var(--white);
 }
 
 /* Mobile Layout */
