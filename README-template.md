@@ -11,8 +11,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -24,12 +22,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./NFT%20preview%20card%20component%20solution%20Screenshot.png)
+![](./NFT Preview card component solution Screenshot.png.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/tiger8707/NFT-preview-card-component)
-- Live Site URL: [Add live site URL here](https://tiger8707.github.io/NFT-preview-card-component/)
+- Solution URL: (https://github.com/tiger8707/NFT-preview-card-component)
+- Live Site URL: (https://tiger8707.github.io/NFT-preview-card-component/)
 
 ### Built with
 
@@ -42,4 +40,4 @@ Users should be able to:
 
 - Website - [Omar Galal](https://github.com/tiger8707/)
 - Frontend Mentor - [@tiger8707](https://www.frontendmentor.io/profile/tiger8707)
-- LinkedIn - [@yourusername](https://www.linkedin.com/in/omar-galal-195b40163/)
+- LinkedIn - [Omar Galal](https://www.linkedin.com/in/omar-galal-195b40163/)

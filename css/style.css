@@ -147,6 +147,7 @@ hr {
 
 .creator {
     align-items: center;
+    margin-top: 1rem;
 }
 
 .creator picture {
@@ -214,12 +215,15 @@ hr {
     .creator p {
         margin: 0;
         margin-top: 0.5rem;
+        margin: 0;
     }
 
     .creator picture {
-        min-width: 20%;
-        max-width: 25%;
+        max-width: 20%;
+        margin: 0;
+        padding: 0;
     }
+
 
     h2 {
         word-break: break-all;
@@ -227,11 +231,6 @@ hr {
 
     p {
         word-break: break-all;
-    }
-
-    .attribution { 
-        font-size: 11px; text-align: center; 
-        color: var(--lineColor);
     }
 }
 
@@ -271,8 +270,7 @@ hr {
     }
 
     .creator picture {
-        min-width: 20%;
-        max-width: 25%;
+        max-width: 2rem;
     }
 
     h2 {
@@ -281,9 +279,5 @@ hr {
 
     p {
         word-break: normal;
-    }
-
-    .attribution {
-        top: 81%;
     }
 }
