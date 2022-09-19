@@ -18,19 +18,22 @@
     <title>NFT preview card component</title>
 </head>
 <body>
-    <div class="card center">
+    <div class="card">
         <div class="container">
-            <picture>
+            <picture class="product-pic">
                 <img src="images/image-equilibrium.jpg" alt="card"/>
+                <div class="overlay">
+                    <img src="/images/icon-view.svg" class="overlay-icon"></img>
+                </div>
             </picture>
-            <h2 class="text-align">Equilibrium #3429</h2>
+            <h2 class="text-align hover">Equilibrium #3429</h2>
             <p class="text-align">Our Equilibrium collection promotes balance and calm.</p>
             <div class="info flex flex--dir">
-                <div class="cost flex flex--dir">
+                <div title="Item Cost" class="cost flex flex--dir">
                     <img src="images/icon-ethereum.svg" alt="coin"/>
                     <span>0.041ETH</span>
                 </div>
-                <div class="time flex flex--dir">
+                <div title="Time Left" class="time flex flex--dir">
                     <img src="images/icon-clock.svg" alt="clock"/>
                     <span>3 days left</span>
                 </div>
@@ -40,9 +43,13 @@
                 <picture>
                     <img src="images/image-avatar.png" alt="avatar">
                 </picture>
-                <p class="text-align">Creation of <span>Jules Wyvern</span></p>
+                <p class="text-align">Creation of <span class="hover">Jules Wyvern</span></p>
             </div>
         </div>
+    </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Omar Galal</a>.
     </div>
 </body>
 </html>
