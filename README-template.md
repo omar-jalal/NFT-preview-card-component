@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./NFT Preview card component solution Screenshot.png.png)
+![](./NFT Preview card component solution Screenshot.png)
 
 ### Links
 
