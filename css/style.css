@@ -77,6 +77,10 @@ hr {
     color: hsl(228, 45%, 44%); 
 }
 
+.transition {
+    transition: all ease-in-out .25s;
+}
+
 
 /* Global End */
 
@@ -110,6 +114,7 @@ hr {
     background-color: var(--hoverColor);
     opacity: 0;
     cursor: pointer;
+    transition: all ease-in-out 0.25s;
 }
 
 .product-pic:hover:after {
@@ -121,11 +126,11 @@ hr {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    visibility: hidden;
+    opacity: 0;
 }
 
 .product-pic:hover .overlay-icon {
-    visibility: visible;
+    opacity: 1;
 }
 
 .product-pic img {
